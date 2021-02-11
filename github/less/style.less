@@ -1,0 +1,197 @@
+/* Fonts ========================================================================================= */
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Bold.woff') format('woff'),
+        url('../fonts/MyriadPro-Bold.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProReg';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProIt';
+    src: url('../fonts/MyriadPro-It.eot');
+    src: url('../fonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-It.woff2') format('woff2'),
+        url('../fonts/MyriadPro-It.woff') format('woff'),
+        url('../fonts/MyriadPro-It.ttf') format('truetype'),
+        url('../fonts/MyriadPro-It.svg#MyriadPro-It') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+.Bold(){font-family:MyriadProBold; }
+.Reg(){font-family:MyriadProReg;}
+.It(){font-family:MyriadProIt;}
+.header{
+	width:100%;
+	height: 720px;    
+	background: #fff url(../img/fon.png) center center no-repeat;
+	.menu{
+		/* border:2px solid red; */
+		height: 114px;
+		margin-top:65px;
+		.avatar{
+			display: inline-block;
+		}
+		.danniye{
+			color: #fff;
+			vertical-align: middle;
+			display: inline-block;
+			line-height: 1;
+			margin-left: 1rem;
+			.name{
+				text-align: center;
+				.Bold;
+				font-size: 3rem;
+				.div{
+					font-size:2rem;
+				}
+			}
+		}
+		.sotseti{
+			display: inline-block;
+			margin-top:57px;
+			/* border:2px solid red; */
+			transform: translateY(-50%);
+			button{
+				background-color: rgba(0,0,0,0);
+				border:none;
+				margin: 0 7px;
+			}
+
+		}		
+	}
+	.box{
+		position: relative;
+		padding: 7rem 5.5rem;
+		height: 44rem;
+		background-color:rgba(255,255,255,0.5);
+		margin-top:110px;
+		border-radius:80px;
+		h1{
+			// border:2px solid red;
+			display: block;
+			color: black;
+			text-transform: uppercase;
+			.Bold();
+			font-size:31px;
+			// margin-top:70px;
+			margin-bottom:30px;
+			// margin-left: 55px;
+		}
+		ul{
+			// border:2px solid red;
+			display: inline-block;
+			color: black;
+			.Reg();
+			line-height:1.7;
+			font-size:25px;
+			margin-left: 15px;
+		}
+		.knopka{
+			display: inline-block;
+			margin-top:210px;
+			.btn{
+				font-size: 20px;
+				.Reg();
+				height: 80px;
+				width: 256px;
+				border:5px solid #1877f2;
+				background-color:rgba(255,255,255,0.5);
+			}
+		}
+	}
+}
+.main{
+	width: 100%;
+	height: 1320px;
+	background: #fff url(../img/fon2.png) center center no-repeat;
+	.works{
+		margin-top: 90px;
+		h2{
+			display: block;
+			font-size: 58px;
+			.Reg();
+		}
+		h3{
+			.Reg();
+			display: block;
+			font-size: 24px;
+		}
+	}
+	.link-works{
+		font-size: 19px;
+		margin-top: 50px;
+		a{
+			color: #fff;
+			padding:0 10px;
+			&::active{
+				text-decoration: unset;
+			}
+		}
+	}
+	.projekts{
+		margin-top:18px;
+		.box{
+			width: 100%;
+			height: 250px;
+			border:2px solid #fff;
+		}
+	}
+	.podval{
+		margin-top: 130px;
+		h4{
+			text-decoration:underline;
+			font-size: 50px;
+			.Bold();
+			width: 100%;
+			color: #fff;
+			// border: 5px solid #1877f2;
+		}
+		.ramka_form{
+			margin-top: 50px;
+			// border:3px solid #1877f2;
+			p{
+				.Reg();
+				font-size: 25px;
+				color: #fff;
+			}
+		}
+	}
+
+}
+@media (max-width: 767px) {
+	.header{
+			
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
