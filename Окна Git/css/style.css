@@ -1,0 +1,778 @@
+/*=========================  Шрифты  ================================================*/
+@font-face {
+  font-family: 'Open Sans_reg';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans_bold';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf') format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans_light';
+  src: url('../fonts/OpenSans-Light.eot');
+  src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light.woff2') format('woff2'), url('../fonts/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light.ttf') format('truetype'), url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+/*=========================  Базовые настройки  ================================================*/
+html img {
+  vertical-align: 0;
+}
+/*=========================  Header   ================================================*/
+header {
+  height: 60px;
+  margin: 2rem 0;
+}
+header .logotype {
+  margin-top: 12px;
+}
+header .balcony_glazing {
+  margin-top: 12px;
+  font-size: 14px;
+  font-family: 'MyriadPro_reg';
+  color: #0096dc;
+}
+header .call_a_measurer {
+  text-align: none;
+  background: transparent;
+  font-family: Open Sans_reg, sans-serif;
+  font-size: 15px;
+}
+header .call_a_measurer .call_a_measurer_btn {
+  border: none;
+  background: transparent;
+  background: #ffffff url(../img/icon_call_a_measurer.png) center left no-repeat;
+  height: 60px;
+  width: 170px;
+}
+header .call_a_measurer .call_a_measurer_btn .call_a_measurer_text {
+  text-align: left;
+  margin-left: 55px;
+  color: #55a831;
+}
+header .operating_mode {
+  padding: 0;
+}
+header .operating_mode .icon_clock {
+  margin-top: 15px;
+  margin-left: 22px;
+}
+header .operating_mode .operating_mode_text {
+  margin-top: 7px;
+  font-size: 14px;
+  text-align: center;
+  font-family: Open Sans_reg, sans-serif;
+  margin-left: 20px;
+}
+header .operating_mode .operating_mode_text .operating_mode_time {
+  font-size: 18px;
+  font-family: Open Sans_bold, sans-serif;
+}
+header .back_call {
+  margin-top: 4px;
+}
+header .back_call .icon_phone {
+  display: inline-block;
+  margin-right: 10px;
+}
+header .back_call .phome_number {
+  display: inline-block;
+  font-size: 23px;
+  font-family: Open Sans_bold, sans-serif;
+}
+header .back_call .back_call_link {
+  margin-left: 36px;
+  font-size: 15px;
+  font-family: Open Sans_reg, sans-serif;
+}
+/*=========================  Main  ================================================*/
+#main {
+  padding-bottom: 15px;
+  background: #ffffff url(../img/main_bg.png) center center no-repeat;
+  background-size: cover;
+}
+#main .main_header {
+  margin-top: 120px;
+}
+#main .main_header .main_title {
+  line-height: 2;
+  font-size: 25px;
+  font-family: Open Sans_bold, sans-serif;
+}
+#main .main_header .main_title .main_title_bold {
+  font-size: 51px;
+}
+#main .advantages {
+  margin-top: 150px;
+}
+#main .advantages .high_quality {
+  position: relative;
+}
+#main .advantages .high_quality .high_quality_icon {
+  top: -24px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-42%);
+          transform: translateX(-42%);
+}
+#main .advantages .high_quality .high_quality_text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Open Sans_bold, sans-serif;
+  text-align: center;
+  top: 37%;
+  position: absolute;
+  left: 17px;
+}
+#main .advantages .quick_installation {
+  position: relative;
+}
+#main .advantages .quick_installation .quick_installation_icon {
+  top: -24px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-54%);
+          transform: translateX(-54%);
+}
+#main .advantages .quick_installation .quick_installation_text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Open Sans_bold, sans-serif;
+  text-align: center;
+  top: 37%;
+  position: absolute;
+  left: 19px;
+}
+#main .advantages .guarantee {
+  position: relative;
+}
+#main .advantages .guarantee .guarantee_icon {
+  top: -11px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-41%);
+          transform: translateX(-41%);
+}
+#main .advantages .guarantee .guarantee_text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Open Sans_bold, sans-serif;
+  text-align: center;
+  top: 37%;
+  position: absolute;
+  left: 17px;
+}
+#main .advantages .garbage_removal {
+  position: relative;
+}
+#main .advantages .garbage_removal .garbage_removal_icon {
+  top: -10px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-39%);
+          transform: translateX(-39%);
+}
+#main .advantages .garbage_removal .garbage_removal_text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: Open Sans_bold, sans-serif;
+  text-align: center;
+  top: 37%;
+  position: absolute;
+  left: 24px;
+}
+#main .main_form {
+  height: 442px;
+  width: 370px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 105px;
+  padding: 40px 50px;
+}
+#main .main_form .sign_up {
+  font-family: Open Sans_bold, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#main .main_form .sign_up .free_measurement {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+#main .main_form form {
+  width: 271px;
+  text-align: center;
+}
+#main .main_form form .name {
+  text-align: center;
+  font-size: 15px;
+  font-family: Open Sans_reg, sans-serif;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin-bottom: 20px;
+}
+#main .main_form form .number {
+  text-align: center;
+  font-size: 15px;
+  font-family: Open Sans_reg, sans-serif;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin-bottom: 20px;
+}
+#main .main_form form .main_call_a_measurer {
+  border: 1px solid #cc9f03;
+  padding: 20px 30px;
+  font-size: 17px;
+  font-family: Open Sans_bold, sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background-color: #ffb601 ;
+  border-radius: 10px;
+}
+#main .main_form .form_futer {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 44px;
+}
+/*=========================  Types  ================================================*/
+#types {
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+#types .types_header {
+  font-size: 30px;
+  font-family: Open Sans_bold, sans-serif;
+  text-transform: uppercase;
+}
+#types .types_header .types_header_title_border_bottom {
+  margin-top: 24px;
+}
+#types .types_products {
+  padding-top: 83px;
+}
+#types .types_products .derevyannoye_ostekleniye {
+  display: inline-block;
+  margin: 0 40px 0 10px;
+}
+#types .types_products .derevyannoye_ostekleniye .derevyannoye_ostekleniye_text {
+  font-size: 18px;
+  text-align: center;
+}
+#types .types_products .alyumimivoye_ostekleniye {
+  display: inline-block;
+  margin: 0 40px;
+}
+#types .types_products .alyumimivoye_ostekleniye .alyumimivoye_ostekleniye_text {
+  font-size: 18px;
+  text-align: center;
+}
+#types .types_products .plastikovoye_ostekleniye {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 40px;
+}
+#types .types_products .plastikovoye_ostekleniye .plastikovoye_ostekleniye_text {
+  font-size: 18px;
+  text-align: center;
+}
+#types .types_products .fransuzkoye_ostekleniye {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 40px;
+}
+#types .types_products .fransuzkoye_ostekleniye .fransuzkoye_ostekleniye_text {
+  font-size: 18px;
+  text-align: center;
+}
+#types .types_products .s_vinosom_ostekleniye {
+  display: inline-block;
+  margin: 0 10px 0 40px;
+}
+#types .types_products .s_vinosom_ostekleniye .s_vinosom_ostekleniye_text {
+  font-size: 18px;
+  text-align: center;
+}
+#types .hot_cold {
+  margin-top: 35px;
+}
+#types .hot_cold .cold {
+  padding-right: 0px;
+  padding-left: 0px;
+  background: #ffffff url(../img/cold_bg.png) center center no-repeat;
+  position: relative;
+  background-size: cover;
+}
+#types .hot_cold .cold .types_border_top img {
+  width: 100%;
+}
+#types .hot_cold .cold .text_cold {
+  margin-top: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Open Sans_bold, sans-serif;
+}
+#types .hot_cold .cold .cold_main {
+  margin-top: 29px;
+  text-align: center;
+}
+#types .hot_cold .cold .cold_main ul {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: Open Sans_reg, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  text-align: left;
+}
+#types .hot_cold .cold .cold_main ul .wrap {
+  margin-bottom: 5px;
+  display: table;
+  height: 25px;
+}
+#types .hot_cold .cold .cold_main ul .wrap .checked_types {
+  display: inline-block;
+  vertical-align: middle;
+}
+#types .hot_cold .cold .cold_main ul .wrap li {
+  margin-left: 17px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#types .hot_cold .cold .cold_main .calculate_the_cost {
+  margin-top: 45px;
+  margin-left: 57px;
+  display: table;
+}
+#types .hot_cold .cold .cold_main .calculate_the_cost .cost {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-family: Open Sans_bold, sans-serif;
+  font-size: 20px;
+}
+#types .hot_cold .cold .cold_main .calculate_the_cost .cost small {
+  font-family: Open Sans_reg, sans-serif;
+  font-size: 14px;
+}
+#types .hot_cold .cold .cold_main .calculate_the_cost .calculate_the_cost_btn {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #cc9f03;
+  padding: 20px 25px;
+  font-size: 17px;
+  margin-left: 30px;
+  font-family: Open Sans_bold, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffb601 ;
+  border-radius: 10px;
+}
+#types .hot_cold .hot {
+  background: #ffffff url(../img/hot_bg.png) center center no-repeat;
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#types .hot_cold .hot .types_border_top img {
+  width: 100%;
+}
+#types .hot_cold .hot .text_hot {
+  margin-top: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Open Sans_bold, sans-serif;
+}
+#types .hot_cold .hot .hot_main {
+  margin-top: 29px;
+  text-align: center;
+}
+#types .hot_cold .hot .hot_main ul {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-family: Open Sans_reg, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  text-align: left;
+}
+#types .hot_cold .hot .hot_main ul .wrap {
+  margin-bottom: 5px;
+  display: table;
+  height: 25px;
+}
+#types .hot_cold .hot .hot_main ul .wrap .checked_types {
+  display: inline-block;
+  vertical-align: middle;
+}
+#types .hot_cold .hot .hot_main ul .wrap li {
+  margin-left: 17px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#types .hot_cold .hot .hot_main .calculate_the_cost {
+  margin-top: 45px;
+  margin-left: 57px;
+  display: table;
+}
+#types .hot_cold .hot .hot_main .calculate_the_cost .cost {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-family: Open Sans_bold, sans-serif;
+  font-size: 20px;
+}
+#types .hot_cold .hot .hot_main .calculate_the_cost .cost small {
+  font-family: Open Sans_reg, sans-serif;
+  font-size: 14px;
+}
+#types .hot_cold .hot .hot_main .calculate_the_cost .calculate_the_cost_btn {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #cc9f03;
+  padding: 20px 25px;
+  font-size: 17px;
+  margin-left: 30px;
+  font-family: Open Sans_bold, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffb601 ;
+  border-radius: 10px;
+}
+/*=========================  Services  ================================================*/
+#services_title {
+  padding-top: 60px;
+  background-color: #f7f7f7;
+}
+#services_title .services_header {
+  font-family: Open Sans_bold, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#services_title .services_line {
+  display: block;
+  text-align: center;
+}
+/*=========================  nav  ================================================*/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: none;
+  color: #0085db;
+  background-color: transparent;
+}
+.nav-tabs > li.active,
+.nav-tabs > li.active:focus,
+.nav-tabs > li.active:hover {
+  background: url(../img/nav_menu.png) top center no-repeat, url(../img/services_nav_bg.png) top center no-repeat;
+}
+nav {
+  background-color: #f7f7f7;
+}
+nav .nav-tabs {
+  border: none;
+  text-align: center;
+}
+nav .nav-tabs li {
+  margin: 0;
+  padding: 40px 44px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Open Sans_bold, sans-serif;
+  display: inline-block;
+  float: none;
+}
+nav .nav-tabs li:hover {
+  background: url(../img/services_nav_bg.png) top center no-repeat;
+  color: #0085db;
+}
+nav .nav-tabs li a {
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+nav .nav-tabs li a:hover {
+  background-color: transparent;
+}
+nav .nav-tabs .active {
+  border: none;
+}
+nav .nav-tabs .interior_decoration {
+  background: #fff;
+}
+/*=========================  Шрифты  ================================================*/
+/*=========================  Адаптив  ================================================*/
+@media (min-width: 0px) and (max-width: 320px) {
+  header {
+    margin-bottom: 5px;
+    height: auto;
+  }
+  header .logotype {
+    margin-top: 12px;
+  }
+  header .logotype .logotype_link .logo {
+    width: 100%;
+    height: 100%;
+  }
+  header .balcony_glazing {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'MyriadPro_reg';
+    color: #0096dc;
+  }
+  header .balcony_glazing br {
+    display: none;
+  }
+  header .call_a_measurer {
+    margin-top: 10px;
+    text-align: center;
+    background: transparent;
+    font-family: Open Sans_reg, sans-serif;
+    font-size: 14px;
+  }
+  header .call_a_measurer .call_a_measurer_btn {
+    border: none;
+    background: transparent;
+    background: #ffffff url(../img/icon_call_a_measurer.png) center left no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 170px;
+  }
+  header .call_a_measurer .call_a_measurer_btn .call_a_measurer_text {
+    text-align: left;
+    margin-left: 55px;
+    color: #55a831;
+  }
+  header .operating_mode_header {
+    margin-top: 10px;
+    padding: 0;
+  }
+  header .operating_mode_header .operating_mode .icon_clock {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 3px;
+    text-align: left;
+  }
+  header .operating_mode_header .operating_mode .operating_mode_text {
+    margin: 0;
+    font-size: 11px;
+    font-family: Open Sans_reg, sans-serif;
+  }
+  header .operating_mode_header .operating_mode .operating_mode_text .operating_mode_time {
+    font-size: 15px;
+    font-family: Open Sans_bold, sans-serif;
+  }
+  header .back_call {
+    margin-top: 10px;
+  }
+  header .back_call .icon_phone {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 0;
+  }
+  header .back_call .phome_number {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Open Sans_bold, sans-serif;
+  }
+  header .back_call .back_call_link {
+    margin-left: 0;
+    font-size: 11px;
+    font-family: Open Sans_reg, sans-serif;
+  }
+  /*=========================  Main  ================================================*/
+  #main {
+    background: #ffffff url(../img/main_bg.png) top center no-repeat;
+    background-position: ;
+    background-size: auto 401px;
+  }
+  #main .main_header {
+    margin-top: 20px;
+  }
+  #main .main_header .main_title {
+    text-align: center;
+    line-height: 1.1;
+    font-size: 15px;
+    font-family: Open Sans_bold, sans-serif;
+  }
+  #main .main_header .main_title .main_title_bold {
+    font-size: 30px;
+  }
+  #main .advantages {
+    margin-top: 30px;
+  }
+  #main .advantages .high_quality {
+    text-align: center;
+    position: relative;
+  }
+  #main .advantages .high_quality .high_quality_icon {
+    top: -15%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .advantages .high_quality .high_quality_text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Open Sans_bold, sans-serif;
+    text-align: center;
+    top: 50px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .advantages .quick_installation {
+    text-align: center;
+    position: relative;
+  }
+  #main .advantages .quick_installation .quick_installation_icon {
+    top: -17%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-55%);
+            transform: translateX(-55%);
+  }
+  #main .advantages .quick_installation .quick_installation_text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Open Sans_bold, sans-serif;
+    text-align: center;
+    top: 50px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .advantages .guarantee {
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+  }
+  #main .advantages .guarantee .guarantee_icon {
+    padding-top: 30px;
+    top: -7%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .advantages .guarantee .guarantee_text {
+    padding-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Open Sans_bold, sans-serif;
+    text-align: center;
+    top: 50px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .advantages .garbage_removal {
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+  }
+  #main .advantages .garbage_removal .garbage_removal_icon {
+    padding-top: 30px;
+    top: -5%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .advantages .garbage_removal .garbage_removal_text {
+    padding-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Open Sans_bold, sans-serif;
+    text-align: center;
+    top: 50px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  #main .main_form {
+    height: auto;
+    width: 98%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 40px 10px;
+  }
+  #main .main_form .sign_up {
+    font-family: Open Sans_bold, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #main .main_form .sign_up .free_measurement {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  #main .main_form form {
+    padding: 25px 0;
+    width: 98%;
+    text-align: center;
+  }
+  #main .main_form form .name {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Open Sans_reg, sans-serif;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+  #main .main_form form .number {
+    font-size: 15px;
+    font-family: Open Sans_reg, sans-serif;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+  }
+  #main .main_form form .main_call_a_measurer {
+    padding: 20px 30px;
+    font-size: 17px;
+    font-family: Open Sans_bold, sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #ffb601 ;
+    border: none;
+    border-radius: 10px;
+  }
+  #main .main_form .form_futer {
+    margin-top: 21px;
+    text-align: center;
+    margin-bottom: 44px;
+  }
+}
