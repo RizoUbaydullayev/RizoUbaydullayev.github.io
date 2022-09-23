@@ -1,0 +1,193 @@
+@media screen and (max-width: 1620px) {
+  body .header_parent {
+    padding: 30px 10px;
+  }
+  body .footer {
+    padding: 30px 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .header_parent {
+    position: relative;
+    padding: 30px 10px;
+  }
+  body .header_parent .header {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  body .header_parent .header .logotype span {
+    font-size: 12px;
+  }
+  body .header_parent .header .language_switcher .select_box {
+    font-size: 12px;
+  }
+  body .header_parent .header .header_info {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  body .header_parent .header .header_info .info {
+    gap: 20px;
+    font-size: 12px;
+  }
+  body .header_parent .header .header_info .request_call button {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 746px) {
+  body .header_parent .header .header_info {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .header_parent .menu {
+    width: 100%;
+    top: 4px;
+    position: absolute;
+  }
+  body .header_parent .menu .menu_list {
+    gap: 30px;
+  }
+  body .header_parent .menu .menu_list .menu_inner a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .footer {
+    font-size: 12px;
+  }
+  body .footer .footer_container .footer_card .logotype span {
+    font-size: 12px;
+  }
+  body .footer .footer_container .footer_card .info {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1024px) and (max-width: 327px) {
+  body .footer .footer_container .footer_card .info .footer_phone .request_call {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .header_parent {
+    padding: 30px 10px;
+  }
+  body .header_parent .header {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  body .header_parent .header .logotype span {
+    font-size: 12px;
+  }
+  body .header_parent .header .language_switcher .select_box {
+    font-size: 12px;
+  }
+  body .header_parent .header .header_info {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  body .header_parent .header .header_info .info {
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 12px;
+  }
+  body .header_parent .header .header_info .request_call button {
+    font-size: 12px;
+  }
+  body .header_parent .menu {
+    z-index: 10;
+    box-shadow: -7px 0px 9px -5px rgba(0, 0, 0, 0.2);
+    background-color: #e9fdff;
+    display: none;
+    padding: 0 13px;
+    height: 100%;
+    width: auto;
+    top: 0px;
+    position: absolute;
+  }
+  body .header_parent .menu .menu_list {
+    position: relative;
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 22px;
+    gap: 10px;
+  }
+  body .header_parent .menu .menu_list .menu_inner a {
+    font-size: 12px;
+  }
+  body .header_parent .menu_btn {
+    cursor: pointer;
+    right: 11px;
+    top: 92px;
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    background: url(../img/icons/menu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+  }
+  body .header_parent .menu_close_btn {
+    display: none;
+    cursor: pointer;
+    top: 28px;
+    z-index: 6;
+    position: absolute;
+    width: 20px;
+    background: url(../img/icons/modal_close_black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+  }
+  body .header_parent .active_menu {
+    display: flex;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: menu;
+            animation-name: menu;
+    right: 0;
+  }
+  body .header_parent .menu_close_btn_active {
+    display: inline-block;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: menu_close_btn;
+            animation-name: menu_close_btn;
+    right: 140px;
+  }
+  @-webkit-keyframes menu {
+    from {
+      right: -127px;
+    }
+    to {
+      right: 0;
+    }
+  }
+  @keyframes menu {
+    from {
+      right: -127px;
+    }
+    to {
+      right: 0;
+    }
+  }
+  @-webkit-keyframes menu_close_btn {
+    from {
+      right: -9px;
+    }
+    to {
+      right: 140px;
+    }
+  }
+  @keyframes menu_close_btn {
+    from {
+      right: -9px;
+    }
+    to {
+      right: 140px;
+    }
+  }
+}/*# sourceMappingURL=base_media.css.map */

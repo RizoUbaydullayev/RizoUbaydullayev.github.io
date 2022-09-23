@@ -1,0 +1,130 @@
+@media screen and (max-width: 1024px) {
+    body {
+        .main_slider {
+            .main_slider_wrap {
+                .page {
+                    .page_content {
+                        .page_title {
+                            font-size: 25px;
+                            padding: 0;
+                            padding-left: 10px;
+                        }
+                        .page_wrap {
+                            .wrap {
+                                font-size: 12px;
+                                .page_location {
+                                    padding-left: 10px;
+                                }
+                            }
+                            .page_show_detail {
+                                font-size: 12px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .slider_arrows {
+                .arrow {
+                }
+                .arrow_prev {
+                }
+                .arrow_next {
+                }
+                .counter {
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        .main_slider {
+            .main_slider_wrap {
+                .page {
+                    height: 300px;
+                    .page_content {
+                        height: 338px;
+                        .page_title {
+                            font-size: 18px;
+                        }
+                        .page_wrap {
+                            gap: 10px;
+                            padding-top: 30px;
+                            .wrap {
+                                font-size: 9px;
+                                .page_location {
+                                    padding-left: 10px;
+                                }
+                            }
+                            .page_show_detail {
+                                height: 32.69px;
+                                width: 123px;
+                                line-height: 32.69px;
+                                font-size: 9px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .slider_arrows {
+                .arrow {
+                    display: none;
+                }
+                .arrow_prev {
+                }
+                .arrow_next {
+                }
+                .counter {
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        .main_slider {
+            .main_slider_wrap {
+                .page {
+                    height: 250px;
+                    .page_content {
+                        height: 286px;
+                        .page_title {
+                            width: 250px;
+                            font-size: 14px;
+                        }
+                        .page_wrap {
+                            flex-basis: auto;
+                            padding-top: 30px;
+                            .wrap {
+                                font-size: 7px;
+                                .page_location {
+                                    padding-left: 10px;
+                                }
+                            }
+                            .page_show_detail {
+                                height: 34px;
+                                width: 123px;
+                                line-height: 34px;
+                                font-size: 9px;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .slider_arrows {
+                .arrow {
+                    display: none;
+                }
+                .arrow_prev {
+                }
+                .arrow_next {
+                }
+                .counter {
+                }
+            }
+        }
+    }
+}

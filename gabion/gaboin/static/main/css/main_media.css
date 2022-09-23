@@ -1,0 +1,80 @@
+@media screen and (max-width: 1024px) {
+  body .main_slider .main_slider_wrap .page .page_content .page_title {
+    font-size: 25px;
+    padding: 0;
+    padding-left: 10px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .wrap {
+    font-size: 12px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .wrap .page_location {
+    padding-left: 10px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .page_show_detail {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body .main_slider .main_slider_wrap .page {
+    height: 300px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content {
+    height: 338px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_title {
+    font-size: 18px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap {
+    gap: 10px;
+    padding-top: 30px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .wrap {
+    font-size: 9px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .wrap .page_location {
+    padding-left: 10px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .page_show_detail {
+    height: 32.69px;
+    width: 123px;
+    line-height: 32.69px;
+    font-size: 9px;
+    margin-right: 10px;
+  }
+  body .main_slider .slider_arrows .arrow {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  body .main_slider .main_slider_wrap .page {
+    height: 250px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content {
+    height: 286px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_title {
+    width: 250px;
+    font-size: 14px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap {
+    flex-basis: auto;
+    padding-top: 30px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .wrap {
+    font-size: 7px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .wrap .page_location {
+    padding-left: 10px;
+  }
+  body .main_slider .main_slider_wrap .page .page_content .page_wrap .page_show_detail {
+    height: 34px;
+    width: 123px;
+    line-height: 34px;
+    font-size: 9px;
+    margin-right: 10px;
+  }
+  body .main_slider .slider_arrows .arrow {
+    display: none;
+  }
+}/*# sourceMappingURL=main_media.css.map */
