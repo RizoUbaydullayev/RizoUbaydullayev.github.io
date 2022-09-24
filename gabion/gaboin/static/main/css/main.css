@@ -297,7 +297,7 @@
   left: 5px;
   top: 50%;
   transform: translateY(-50%);
-  background: url(/gaboin/static/base_static/img/icons/user.svg);
+  background: url(../gaboin/static/base_static/img/icons/user.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -323,7 +323,7 @@
   left: 5px;
   top: 50%;
   transform: translateY(-50%);
-  background: url(/gaboin/static/base_static/img/icons/phone.svg);
+  background: url(../gaboin/static/base_static/img/icons/phone.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
