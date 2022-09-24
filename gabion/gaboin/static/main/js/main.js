@@ -1,3 +1,4 @@
+// Большой слайдер
 const main_slider = new Swiper('.main_slider', {
   wrapperClass: 'main_slider_wrap',
   slideClass: 'page',
@@ -10,15 +11,15 @@ const main_slider = new Swiper('.main_slider', {
     el: '.slider_arrows .swiper-pagination-current',
     type: 'bullets',
   },
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  //   pauseOnMouseEnter: true,
-  // },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
 });
 
-
-const our_work_slider = new Swiper('.our_work_slider', {
+// Мини слайдер
+let our_work_slider = new Swiper('.our_work_slider', {
   wrapperClass: 'our_work_slider_wrap',
   slideClass: 'work_card',
   slidesPerView: 3,
@@ -34,3 +35,14 @@ const our_work_slider = new Swiper('.our_work_slider', {
     type: 'bullets',
   },
 })
+if (window.innerWidth < 580) {
+  our_work_slider.params.slidesPerView = 2;
+}
+window.addEventListener('resize', () => {
+  if (window.innerWidth < 580) {
+    our_work_slider.params.slidesPerView = 2;
+    return;
+  }
+    our_work_slider.params.slidesPerView = 3;
+})
+

@@ -169,13 +169,13 @@
             }
             .active_menu {
                 display: flex;
-                animation-duration: 0.5s;
+                animation-duration: 0.3s;
                 animation-name: menu;
                 right: 0;
             }
             .menu_close_btn_active {
                 display: inline-block;
-                animation-duration: 0.5s;
+                animation-duration: 0.3s;
                 animation-name: menu_close_btn;
                 right: 140px;
             }

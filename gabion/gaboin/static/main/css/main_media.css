@@ -1,3 +1,8 @@
+@media screen and (max-width: 1620px) {
+  body .main {
+    padding: 0 10px;
+  }
+}
 @media screen and (max-width: 1024px) {
   body .main_slider .main_slider_wrap .page .page_content .page_title {
     font-size: 25px;
@@ -13,6 +18,40 @@
   body .main_slider .main_slider_wrap .page .page_content .page_wrap .page_show_detail {
     font-size: 12px;
     margin-right: 10px;
+  }
+  body .main {
+    padding: 0 10px;
+  }
+  body .main .main_title {
+    font-size: 25px;
+    margin: 50px 0;
+  }
+  body .main .cards_service .card {
+    height: 330px;
+    width: 240px;
+  }
+  body .main .cards_service .card .card_img {
+    height: 128px;
+  }
+  body .main .cards_service .card .card_title {
+    font-size: 16px;
+  }
+  body .main .cards_service .card .card_text {
+    width: 220px;
+    font-size: 10px;
+  }
+  body .main .cards_service .card .button_details {
+    font-size: 12px;
+  }
+  body .our_work .our_work_title {
+    margin: 50px 0;
+    font-size: 25px;
+  }
+  body .our_work .our_work_slider .our_work_slider_wrap .work_card .card_inner {
+    height: 200px;
+  }
+  body .our_work .our_work_show_more .show_more_btn {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -45,6 +84,9 @@
   body .main_slider .slider_arrows .arrow {
     display: none;
   }
+  body .our_work .our_work_slider .our_work_slider_wrap .work_card .card_inner {
+    height: 140px;
+  }
 }
 @media screen and (max-width: 425px) {
   body .main_slider .main_slider_wrap .page {
@@ -76,5 +118,10 @@
   }
   body .main_slider .slider_arrows .arrow {
     display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  body .our_work .our_work_slider .our_work_slider_wrap .work_card .card_inner {
+    height: 110px;
   }
 }/*# sourceMappingURL=main_media.css.map */

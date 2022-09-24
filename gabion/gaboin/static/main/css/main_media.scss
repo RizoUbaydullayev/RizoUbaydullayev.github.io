@@ -1,3 +1,10 @@
+@media screen and (max-width: 1620px) {
+    body {
+        .main {
+            padding: 0 10px;
+        }
+    }
+}
 @media screen and (max-width: 1024px) {
     body {
         .main_slider {
@@ -33,6 +40,55 @@
                 }
                 .counter {
                 }
+            }
+        }
+        .main {
+            padding: 0 10px;
+            .main_title {
+                font-size: 25px;
+                margin: 50px 0;
+            }
+            .cards_service {
+                .card {
+                    height: 330px;
+                    width: 240px;
+                    .card_img {
+                        height: 128px;
+                    }
+                    .card_title {
+                        font-size: 16px;
+                    }
+                    .card_text {
+                        width: 220px;
+                        font-size: 10px;
+                    }
+                    .button_details {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .our_work {
+            .our_work_title {
+                margin: 50px 0;
+                font-size: 25px;
+            }
+            .our_work_slider {
+                .our_work_slider_wrap {
+                    .work_card {
+                        .card_inner {
+                            height: 200px;
+                            a {
+                            }
+                        }
+                    }
+                }
+            }
+            .our_work_show_more {
+                .show_more_btn {
+                    font-size: 12px;
+                }
+
             }
         }
     }
@@ -78,6 +134,42 @@
                 }
                 .counter {
                 }
+            }
+        }
+        .main {
+            .main_title {
+            }
+            .cards_service {
+                .card {
+                    .card_img {
+                    }
+                    .card_title {
+                    }
+                    .card_text {
+                    }
+                    .button_details {
+                    }
+                }
+            }
+        }
+        .our_work {
+            .our_work_title {
+            }
+            .our_work_slider {
+                .our_work_slider_wrap {
+                    .work_card {
+                        .card_inner {
+                            height: 140px;
+                            a {
+                            }
+                        }
+                    }
+                }
+            }
+            .our_work_show_more {
+                .show_more_btn {
+                }
+
             }
         }
     }
@@ -127,4 +219,29 @@
             }
         }
     }
+}
+@media screen and (max-width: 375px) {
+    body {
+        .our_work {
+            .our_work_title {
+            }
+            .our_work_slider {
+                .our_work_slider_wrap {
+                    .work_card {
+                        .card_inner {
+                            height: 110px;
+                            a {
+                            }
+                        }
+                    }
+                }
+            }
+            .our_work_show_more {
+                .show_more_btn {
+                }
+
+            }
+        }
+    }
+
 }

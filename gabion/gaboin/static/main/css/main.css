@@ -208,35 +208,13 @@
   border-radius: 5px;
   height: 300px;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
 }
 .our_work .our_work_slider .our_work_slider_wrap .work_card .card_inner a {
   display: inline-block;
   width: 100%;
   height: 100%;
-}
-.our_work .our_work_slider .our_work_slider_wrap .work_card .card_inner:hover {
-  -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
-  -webkit-animation-name: for_mini_slider;
-          animation-name: for_mini_slider;
-  background-size: 102%;
-}
-@-webkit-keyframes for_mini_slider {
-  from {
-    background-size: 100%;
-  }
-  to {
-    background-size: 102%;
-  }
-}
-@keyframes for_mini_slider {
-  from {
-    background-size: 100%;
-  }
-  to {
-    background-size: 102%;
-  }
 }
 .our_work .our_work_slider .our_work_pagination {
   text-align: center;

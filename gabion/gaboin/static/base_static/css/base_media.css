@@ -144,16 +144,16 @@
   }
   body .header_parent .active_menu {
     display: flex;
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
     -webkit-animation-name: menu;
             animation-name: menu;
     right: 0;
   }
   body .header_parent .menu_close_btn_active {
     display: inline-block;
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
     -webkit-animation-name: menu_close_btn;
             animation-name: menu_close_btn;
     right: 140px;
