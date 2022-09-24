@@ -2,6 +2,9 @@
   body .main {
     padding: 0 10px;
   }
+  body .send_message {
+    padding: 30px 10px 30px 10px;
+  }
 }
 @media screen and (max-width: 1024px) {
   body .main_slider .main_slider_wrap .page .page_content .page_title {
@@ -53,6 +56,41 @@
   body .our_work .our_work_show_more .show_more_btn {
     font-size: 12px;
   }
+  body .send_message .send_message_title {
+    width: 200px;
+  }
+  body .send_message .send_message_title p {
+    font-size: 20px;
+  }
+  body .send_message .send_message_title span {
+    font-size: 24px;
+  }
+  body .send_message .send_message_form {
+    width: 380px;
+  }
+  body .send_message .send_message_form .name_phone .name {
+    font-size: 12px;
+  }
+  body .send_message .send_message_form .name_phone .name input {
+    padding-left: 20px;
+  }
+  body .send_message .send_message_form .name_phone .name::before {
+    width: 15px;
+    height: 15px;
+  }
+  body .send_message .send_message_form .name_phone .phone {
+    font-size: 12px;
+  }
+  body .send_message .send_message_form .name_phone .phone input {
+    padding-left: 20px;
+  }
+  body .send_message .send_message_form .name_phone .phone::before {
+    width: 15px;
+    height: 15px;
+  }
+  body .send_message .send_message_form .modal_submit_btn button {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 768px) {
   body .main_slider .main_slider_wrap .page {
@@ -86,6 +124,9 @@
   }
   body .our_work .our_work_slider .our_work_slider_wrap .work_card .card_inner {
     height: 140px;
+  }
+  body .send_message {
+    gap: 30px;
   }
 }
 @media screen and (max-width: 425px) {

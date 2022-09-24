@@ -1,4 +1,7 @@
 @media screen and (max-width: 1620px) {
+  body .request_call_modal {
+    padding: 0 10px;
+  }
   body .header_parent {
     padding: 30px 10px;
   }
@@ -56,6 +59,9 @@
   body .footer {
     font-size: 12px;
   }
+  body .footer .footer_container .footer_cities .cities_title {
+    font-size: 12px;
+  }
   body .footer .footer_container .footer_card .logotype span {
     font-size: 12px;
   }
@@ -66,6 +72,25 @@
 @media screen and (max-width: 1024px) and (max-width: 327px) {
   body .footer .footer_container .footer_card .info .footer_phone .request_call {
     margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body .request_call_modal .modal form .name {
+    font-size: 12px;
+  }
+  body .request_call_modal .modal form .name::before {
+    width: 15px;
+    height: 15px;
+  }
+  body .request_call_modal .modal form .phone {
+    font-size: 12px;
+  }
+  body .request_call_modal .modal form .phone::before {
+    width: 15px;
+    height: 15px;
+  }
+  body .request_call_modal .modal form .modal_submit_btn button {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -189,5 +214,35 @@
     to {
       right: 140px;
     }
+  }
+  body .request_call_modal .modal .modal_close_btn {
+    background: url(../img/icons/modal_close_black.png);
+    background-size: cover;
+    top: 6px;
+    right: 6px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 450px) {
+  body .request_call_modal .modal {
+    padding: 30px 33px;
+  }
+}
+@media screen and (max-width: 425px) {
+  body .request_call_modal .modal {
+    padding: 30px 5px;
+  }
+  body .request_call_modal .modal .request_call_modal_title {
+    font-size: 18px;
+  }
+  body .request_call_modal .modal .request_call_modal_subtitle {
+    font-size: 9px;
+  }
+  body .request_call_modal .modal .modal_close_btn {
+    width: 15px;
+    height: 15px;
+    background: url(../img/icons/modal_close_black.png);
+    background-size: cover;
+    top: 6px;
+    right: 6px;
   }
 }/*# sourceMappingURL=base_media.css.map */

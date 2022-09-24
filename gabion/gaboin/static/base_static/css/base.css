@@ -122,7 +122,7 @@
   background: transparent;
   border-radius: 5px;
   height: 40px;
-  font-size: 22px;
+  font-size: 14px;
 }
 .request_call_modal .modal .modal_submit_btn button:hover {
   background-color: #acacac;
