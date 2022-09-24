@@ -35,11 +35,11 @@ let our_work_slider = new Swiper('.our_work_slider', {
     type: 'bullets',
   },
 })
-if (window.innerWidth < 580) {
+if (window.screen.width < 580) {
   our_work_slider.params.slidesPerView = 2;
 }
 window.addEventListener('resize', () => {
-  if (window.innerWidth < 580) {
+  if (window.screen.width < 580) {
     our_work_slider.params.slidesPerView = 2;
     return;
   }
