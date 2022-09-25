@@ -6,6 +6,9 @@
         .header_parent {
             padding: 30px 10px;
         }
+        .send_message {
+            padding: 30px 10px 30px 10px;
+        }
         .footer {
             padding: 30px 10px;
         }
@@ -86,6 +89,49 @@
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+        .send_message {
+            .send_message_title {
+                width: 200px;
+                p {
+                    font-size: 20px;
+                }
+                span {
+                    font-size: 24px;
+                }
+            }
+            .send_message_form {
+                width: 380px;
+                .name_phone {
+                    .name {
+                        font-size: 12px;
+                        input {
+                            padding-left: 20px;
+                        }
+                        &::before {
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                    .phone {
+                        font-size: 12px;
+                        input {
+                            padding-left: 20px;
+                        }
+                        &::before {
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                }
+                .message {
+                }
+                .modal_submit_btn {
+                    button {
+                        font-size: 12px;
                     }
                 }
             }
@@ -193,7 +239,7 @@
                 display: none;
                 cursor: pointer;
                 // right: 140px;
-                top: 28px;
+                top: 4px;
                 z-index: 6;
                 position: absolute;
                 width: 20px;
@@ -229,6 +275,37 @@
                 }
                 to {
                     right: 140px;
+                }
+            }
+        }
+        .send_message {
+            gap: 30px;
+            .send_message_title {
+                p {
+                }
+                span {
+                }
+            }
+            .send_message_form {
+                .name_phone {
+                    .name {
+                        input {
+                        }
+                        &::before {
+                        }
+                    }
+                    .phone {
+                        input {
+                        }
+                        &::before {
+                        }
+                    }
+                }
+                .message {
+                }
+                .modal_submit_btn {
+                    button {
+                    }
                 }
             }
         }

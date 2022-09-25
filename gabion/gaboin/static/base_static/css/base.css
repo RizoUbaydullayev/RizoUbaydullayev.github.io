@@ -320,6 +320,113 @@
   font-size: 14px;
 }
 
+.send_message {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  padding: 30px 0px 30px 0px;
+}
+.send_message .send_message_title {
+  width: 250px;
+  font-family: "ProximaNova-Semibold", sans-serif;
+}
+.send_message .send_message_title p {
+  font-size: 24px;
+  margin: 0;
+  -moz-text-align-last: justify;
+       text-align-last: justify;
+}
+.send_message .send_message_title span {
+  display: block;
+  -moz-text-align-last: justify;
+       text-align-last: justify;
+  font-size: 35px;
+}
+.send_message .send_message_form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.send_message .send_message_form .name_phone {
+  gap: 10px;
+  display: flex;
+}
+.send_message .send_message_form .name_phone .name {
+  flex-basis: 50%;
+  font-size: 14px;
+  position: relative;
+}
+.send_message .send_message_form .name_phone .name:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../../base_static/img/icons/user.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.send_message .send_message_form .name_phone .name input {
+  width: 100%;
+  background: transparent;
+  border: solid 2px #acacac;
+  display: block;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.send_message .send_message_form .name_phone .phone {
+  flex-basis: 50%;
+  font-size: 14px;
+  position: relative;
+}
+.send_message .send_message_form .name_phone .phone:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../../base_static/img/icons/phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.send_message .send_message_form .name_phone .phone input {
+  width: 100%;
+  background: transparent;
+  border: solid 2px #acacac;
+  display: block;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.send_message .send_message_form .message {
+  resize: none;
+  height: 120px;
+}
+.send_message .send_message_form .modal_submit_btn {
+  text-align: center;
+}
+.send_message .send_message_form .modal_submit_btn button {
+  width: 100%;
+  cursor: pointer;
+  font-family: ProximaNova-Semibold, sans-serif;
+  border: solid 2px #acacac;
+  background: transparent;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 14px;
+}
+.send_message .send_message_form .modal_submit_btn button:hover {
+  background-color: #acacac;
+}
+
 /*====  Footer  ====*/
 .footer {
   font-size: 14px;
